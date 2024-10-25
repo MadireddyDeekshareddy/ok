@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portal</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mx-auto p-4 pt-6 mt-10">
+    <h1 class="text-3xl font-bold mb-6">Student Portal</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all hover:scale-105">
+        <h2 class="text-lg font-semibold mb-4">Quick Links</h2>
+        <ul id="quick-links"></ul>
+        <h1>Canvas LMS</h1>
+        <h5>click here to access your LMS portal for assignments, class recordings and notes</h5>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all hover:scale-105">
+        <h2 class="text-lg font-semibold mb-4">Announcements</h2>
+        <p>1.On account of independence day, August 15th will be a holiday</p>
+        <br>
+        <p>2.Reminder to finish your assignments and submit them on Monday</p>
+        <ul id="announcements"></ul>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all hover:scale-105">
+        <h2 class="text-lg font-semibold mb-4">Access Class Recordings</h2>
+        <h5> class 7 Math</h5>
+        <h1>Algebraic Equations</h1>
+        <br>
+        <h5>class 7 Math</h5>
+        <h1>Inert Gases</h1>
+        <ul id="access class-recordings"></ul>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all hover:scale-105">
+        <h2 class="text-lg font-semibold mb-4">Your Class Schedule</h2>
+        <button>
+        <h5>class 7, science | Live class</h5>
+        <h3>Tuesday, 5:00-5:50PM</h3>
+        <h5>class 7, science | Live class</h5>
+        <h3>Tuesday, 6:00-6:50PM</h3>
+        </button>
+
+        <table id="your class-schedule"></table>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
